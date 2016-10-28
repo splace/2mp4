@@ -12,4 +12,6 @@ all video files in current directory to "video/x-flv".
 ```
 Note: what files are videos is determined by the operating systems mime types.
 
-Note: the codec in the source file must be compatible with the target container, and supported by the conversion program. 
+Note: the codec in the source file must be compatible with the target container.
+
+Note: only tested with avconv. (Ubuntu)
