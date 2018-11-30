@@ -18,3 +18,4 @@ Notes
 
 * the container(s) must be supported by the conversion program. 
 
+* when the conversion program reports success the source file is deleted. (so copy/symlink/lock for absolute safety.)
