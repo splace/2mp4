@@ -2,7 +2,7 @@ Batch Re-Container video files.
 
 Examples:
 
-convert all video files in the current directory to "video/mp4", using avconv.
+convert all video files in the current directory to "video/mp4", using ffmpeg.
 ```
 2mp4.sh
 ```
@@ -10,8 +10,11 @@ all video files in current directory to "video/x-flv".
 ```
 2mp4.sh flv
 ```
-Note: what files are videos is determined by the operating systems mime types.
+Notes
 
-Note: the codec in the source file must be compatible with the target container.
+* what files are videos is determined by the operating systems mime types.
 
-Note: only tested with avconv. (Ubuntu)
+* the codec in the source file must be compatible with the target container.
+
+* the container(s) must be supported by the conversion program. 
+
